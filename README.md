@@ -21,6 +21,7 @@ The application is structured within the `Bugeei` package and consists of the fo
 - `BudgetManager.java`: Core engine handling the business logic, calculations, and reporting.
 - `FileManager.java`: Interface handling local file read/write operations.
 - `Income.java` & `Expense.java`: Model classes representing financial data structures.
+- `expense.txt` & `income.txt`: These are the text files that keeps track of data.
 
 ## How to Run
 
