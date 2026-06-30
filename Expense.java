@@ -1,0 +1,55 @@
+package Bugeei;
+public class Expense {
+    private String date;
+    private String category;
+    private String description;
+    private double amount;
+
+    // Constructor
+    public Expense(String date, String category, String description, double amount) {
+        this.date = date;
+        this.category = category;
+        this.description = description;
+        this.amount = amount;
+    }
+
+    // Getters
+    public String getDate() {
+        return date;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    // Setters
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    // Save object as one line in text file
+    @Override
+    public String toString() {
+        return date + "," + category + "," + description + "," + amount;
+    }
+}
